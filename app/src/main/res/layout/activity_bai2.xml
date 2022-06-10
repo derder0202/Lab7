@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai2Activity">
+
+    <ImageView
+        android:id="@+id/bai2_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/all" />
+
+    <Button
+        android:id="@+id/bai2_nobiBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nobita"
+        app:layout_constraintBottom_toTopOf="@+id/bai2_imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747" />
+
+    <Button
+        android:id="@+id/bai2_doreBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doraemon"
+        app:layout_constraintBottom_toTopOf="@+id/bai2_imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747" />
+
+    <Button
+        android:id="@+id/bai2_allBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All"
+        app:layout_constraintBottom_toTopOf="@+id/bai2_imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
